@@ -105,7 +105,7 @@ function paintToDoList(inputText, pos) {
     moveBtn.innerText = "❤";
     delbtn.addEventListener("click", deleteToDoList);
     moveBtn.addEventListener("click", MoveTodoList);
-    span.innerText = inputText;
+    span.innerText = " "+inputText;
 
     li.appendChild(delbtn);
     li.appendChild(moveBtn);
@@ -129,7 +129,7 @@ function paintToDoList(inputText, pos) {
     moveBtn.innerText = "💔";
     delbtn.addEventListener("click", deleteToDoList);
     moveBtn.addEventListener("click", MoveTodoList);
-    span.innerText = inputText;
+    span.innerText = " "+inputText;
 
     li.appendChild(delbtn);
     li.appendChild(moveBtn);
